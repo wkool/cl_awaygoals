@@ -1,6 +1,6 @@
 # The away goal rule was not fair enough.
 
-<sub>Wouter Kool Washington University in St. Louis, wkool@wustl.edu</sub>
+<sub>Wouter Kool, Washington University in St. Louis, wkool@wustl.edu</sub>
 
 This week, it was announced that UEFA will abolish the "away goal" rule for Champions League games. This rule was introduced in 1965, when the Champions League was called the Europa Cup 1, and was meant to give teams some extra motivation to score during away games in either a playoff or knockout round. After two legs of football matches, if the aggregate score was a tie, the team with the most away goals would win. This rule also counted in extra time, the extra 30 minutes played in the second leg of the match after a tie with no winner, so that if the away team would score during this period, the home team would need to score at least *twice*. This last aspect of the rule has often been framed as particularly unfair for the home team, and I think it is one of the main reasons it was abolished. Here, I will show that this was a mistake, but also how this mistake can be salvaged without reintroducing the rule!
 
