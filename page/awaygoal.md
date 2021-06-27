@@ -205,20 +205,3 @@ yearxpen.mean()*100
     Name: home_wins, dtype: float64
 
 
-
-
-```python
-os.system('jupyter nbconvert --to html awaygoal.ipynb --TemplateExporter.exclude_input=True')
-```
-
-
-
-
-    0
-
-
-
-
-```python
-
-```
