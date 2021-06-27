@@ -69,11 +69,3 @@ And here are the same values split by both year and phase of the game:
     Name: home_wins, dtype: float64
 
 
-
-
-      File "<ipython-input-2-cd6a560f866c>", line 1
-        jupyter nbconvert --to html --TemplateExporter.exclude_input=True awaygoal.ipynb
-                        ^
-    SyntaxError: invalid syntax
-
-
