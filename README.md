@@ -27,11 +27,11 @@ It turns out that if games finish before the 30 minutes of extra time are over, 
 ![png](awaygoal_files/awaygoal_5_0.png)
 
 
-Even though I am an AFC Ajax fan, still recovering from our 2019 semi-final against Tottenham, I have to conclude that, if anything, the away goal rule was not fair enough. Now that this rule has been abolished, we should see an even stronger tendency for home-playing teams to win during extra time: there is a clear home advantage and eliminating the rule benefits home teams.
+Even though I am an AFC Ajax fan, still recovering from our 2019 semi-final against Tottenham (decided on away goals), I have to conclude that, if anything, the away goal rule was not fair enough. Now that this rule has been abolished, we should see an even stronger tendency for home-playing teams to win during extra time: there is a clear home advantage and eliminating the rule benefits home teams.
 
 However, this last analysis has provided us with a great solution for this problem! This is because all of the home team's advantage takes place during extra time. 
 
-Therefore, UEFA should go one step further and eliminate extra time. Instead, games should go straight to penalty kicks after 2x90 minutes. In this scenario, both teams would have had a home advantage for 50% of the time, and their chances of winning would not depend on which team gets to play home last. Moreover, it would spare the players, and it would allow the UEFA to keep the away goal rule, eh, away. 
+Therefore, UEFA should go one step further and eliminate extra time. After 180 minutes, games should go straight to penalty kicks. In this scenario, both teams would have had a home advantage for 50% of the time, and their chances of winning would not depend on which team gets to play home last. Moreover, it would spare the players, and it would allow the UEFA to keep the away goal rule, eh, away. 
 
 Now, of course, I am not expecting that UEFA will listen to a Dutch psychology professor in the USA, so we may have to live with the knowledge that they created an unfair system. Even so, as a psychological scientist this project has been interesting to me at many levels. The most important insight to draw from this is that decision making is hard, and that your intuition is often pretty wrong. The UEFA could really learn from this, so that in the future it will implement changes by more closely inspecting the data. But you, the reader, can also learn from this!
 
