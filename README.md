@@ -52,7 +52,7 @@ Some smart redditors have pointed out that home/away teams are not randomy selec
 ![png](awaygoal_files/awaygoal_10_0.png)
 
 
-The 63% home advantage after regular time is statistically significantly different from 50% (sign-test *p* = 0.008). This effect remains significant for games that ended during ET (*p* = 0.002), but not for games that end during penalties (p = 0.77). Breaking it down by "year range" this analysis becomes a bit hard to do, because sample size goes down dramatically, but the trends are similar.
+The 63% home advantage after regular time is statistically significantly different from 50% (sign-test *p* = 0.008). This effect remains significant for games that ended during ET (*p* = 0.002), but not for games that end during penalties (*p* = 0.77). Breaking it down by "year range" this analysis becomes a bit hard to do, because sample size goes down dramatically, but the trends are similar.
 
 Here are the raw percentages for the analyses of win percentage of the home team for the three different time periods:
 
