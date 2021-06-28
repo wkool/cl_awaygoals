@@ -1,6 +1,5 @@
 # The away goal rule was not fair enough.
 
-<<<<<<< HEAD
 <sub>Wouter Kool Washington University in St. Louis</sub>
 
 Last week, it was announced that UEFA will abolish the "away goal" rule for Champions League games. This rule was introduced in 1965, when the Champions League was still the European Cup, and was meant to give teams some extra motivation to score during away games in either a playoff or knockout round. After two legs of football matches, if the aggregate score was a tie, the team with the most away goals would win. This rule also counted in extra time, the extra 30 minutes played in the second leg of the match after a tie with no winner, so that if the away team would score during this period, the home team would need to score at least twice. This last aspect of the rule has often been framed as particularly unfair for the home team. Indeed, at first glance, it certainly sounds like it overly punishes them! I think this feeling is one of the main reasons that the rule was recently abolished. Here, I will show that this was a mistake, but also how this mistake can be salvaged without reintroducing the rule!
@@ -10,17 +9,6 @@ Over the first 180 minutes of football, the away goal rule is not unfair: both t
 So, what happens in overtime? I analyzed all games from the Europa Cup 1 and Champions Leauge that went into overtime since the rule has been introduced in 1965. The hypothesis is simple: if the away goal rule is unfair to the home team in overtime, then the away team should win games that go to overtime more (than 50%). (I decided to not analyze data from the last two seasons, since I suspect that COVID has had a huge, and unrelated, effect on the home-field advantage.)
 
 The results were very surprising, and speak strongly against this rule change! Across all games played so far, there is an overwhelming tendency for the away team to lose in extra time: 63% of games are won by the home team after regular time. So, home teams win most of the time, even with the away goal rule in place. This clearly shows that, if anything, the away goal rule was not fair enough.
-=======
-<sub>Wouter Kool, Washington University in St. Louis, wkool@wustl.edu</sub>
-
-Last week, it was announced that UEFA will abolish the "away goal" rule for Champions League games. This rule was introduced in 1965, when the Champions League was still the European Cup, and was meant to give teams some extra motivation to score during away games in either a playoff or knockout round. After two legs of football matches, if the aggregate score was a tie, the team with the most away goals would win. This rule also counted in extra time, the extra 30 minutes played in the second leg of the match after a tie with no winner, so that if the away team would score during this period, the home team would need to score at least *twice*. This last aspect of the rule has often been framed as particularly unfair for the home team. Indeed, at first glance, it certainly sounds like it overly punishes them! I think this *feeling* is one of the main reasons that the rule was recently abolished. Here, I will show that this was a mistake, but also how this mistake can be salvaged without reintroducing the rule!
-
-Over the first 180 minutes of football, the away goal rule is not unfair: both teams get 90 minutes to take advantage of it. However, after regular time, something interesting happens. The home team gets to play 30 more minutes in their own stadium, and the away team gets an extra 30 minutes of 'away goal advantage'. So, which team gets the advantage? Like I said above, most people in the business seem to think that the advantage goes to the away team. In the end, their goals count more than their opponent's goals. The great thing is that we do not have to rely on intuition, feelings, or opinion, because we can simply look at the data. If the rule truly is unfair, then we should find that *the away team wins more during overtime*. However, if they win equally, the away goal rule is doing its work, and if the home team wins more often, the away goal rule is not punitive enough.
-
-So, what happens in overtime? I analyzed all games from the Europa Cup 1 and Champions Leauge that went into overtime since the rule has been introduced in 1965. The hypothesis is simple: if the away goal rule is unfair to the home team in overtime, then the away team should win games that go to overtime more (than 50%). (I decided to not analyze data from the last two seasons, since I suspect that COVID has had a huge, and unrelated, effect on the home-field advantage.)
-
-The results were very surprising, and speak strongly against this rule change! Across all games played so far, there is an overwhelming tendency for the away team to **lose** in extra time: 63% of games are won by the home team after regular time. So, home teams win most of the time, *even with the away goal rule in place*. This clearly shows that, if anything, the away goal rule was not fair enough.
->>>>>>> b24f4d3f9f9bbf8ee7df0b23de2cc62d78c9d753
 
 You can see the data for yourself in the figure below (and you can find all data and code for this analysis on my GitHub profile). As you can see, there seems to be somewhat of a downward trend over time, but even in the last decade, there is a clear (60%) advantage for the home team during overtime. Now that this rule has been abolished, the home team's chances of winning will be even greater during overtime! That's not fair at all. The home team is clearly at an advantage, so taking away the away goal rule will benefit them even more.
 
@@ -32,11 +20,7 @@ Luckily, I discovered an easy fix, which I will tell you about below!
 
 ## Penalty kicks are completely fair
 
-<<<<<<< HEAD
 After 30 minutes of overtime, games are decided by penalty kicks. How does that affect this analysis? So far, I have only analyzed data across all games, not splitting them out by when the games was decided (extra time or penalty kicks). But, if we do this, we see another interesting pattern emerge.
-=======
-After 30 minutes of overtime, games are decided by penalty kicks. How does that affect this analysis? So far, I have only analyzed data across all games, not splitting them out by *when* the games was decided (extra time or penalty kicks). But, if we do this, we see another interesting pattern emerge.
->>>>>>> b24f4d3f9f9bbf8ee7df0b23de2cc62d78c9d753
 
 It turns out that if games finish before the 30 minutes of extra time are over, the home team has an amazing 70% to win the game! However, if the game goes to a series of penalty kicks, the home team advantage evaporates, with only 53% of a chance for either team to win. I show these percentages in the graph below. As you can see, there is again a slight diminishing trend in this effect over time. However, there is still a huge benefit for the home team during extra time and much less during penalty kicks even in the last decade or so.
 
@@ -46,11 +30,7 @@ It turns out that if games finish before the 30 minutes of extra time are over, 
 
 Even though I am an AFC Ajax fan, still recovering from our 2019 semi-final against Tottenham (decided on away goals), I have to conclude that, if anything, the away goal rule was not fair enough. Now that this rule has been abolished, we should see an even stronger tendency for home-playing teams to win during extra time: there is a clear home advantage and eliminating the rule benefits home teams.
 
-<<<<<<< HEAD
 However, this last analysis has provided us with a great solution for this problem! This is because all of the home team's advantage takes place before penalty kicks are taken.
-=======
-However, this last analysis has provided us with a great solution for this problem! This is because all of the home team's advantage takes place before penalty kicks are taken. 
->>>>>>> b24f4d3f9f9bbf8ee7df0b23de2cc62d78c9d753
 
 Therefore, UEFA should go one step further and eliminate extra time. After 180 minutes, games should go straight to penalty kicks. In this scenario, both teams would have had a home advantage for 50% of the time, and their chances of winning would not depend on which team gets to play home last. Moreover, it would spare the players, and it would allow the UEFA to keep the away goal rule, eh, away.
 
