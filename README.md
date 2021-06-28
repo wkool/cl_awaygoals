@@ -80,12 +80,3 @@ And here are the same values split by both year and phase of the game:
     2005 - 2018  False        65.217391
                  True         54.545455
     Name: home_wins, dtype: float64
-
-
-
-
-
-
-    0
-
-
