@@ -42,7 +42,7 @@ The lesson is that your subjective experience of the world is often inaccurate. 
 I thank Gerald Bauer and github.com/footballcsv for providing the bulk of the data for this project.
 
 ### Supplemental analyses
-Some smart redditors have pointed out that home/away teams are not randomy selected in the Round of 16. You can see the data of the two graphs above when you exclude this round, it turns out that it doesn't make a huge difference, but the distinction between extra time and penalty kicks becomes a little bit more finnicky. (However, I would argue that RO16 games that end up in a symmetric tie were more likely to not b
+Some smart redditors have pointed out that home/away teams are not randomy selected in the Round of 16. You can see the data of the two graphs above when you exclude this round, it turns out that it doesn't make a huge difference, but the distinction between extra time and penalty kicks becomes a little bit more finnicky. (However, I would argue that RO16 games that end up in a symmetric tie were more likely to not between heavily imbalanced teams.)
 
 
 ![png](awaygoal_files/awaygoal_9_0.png)
@@ -51,6 +51,8 @@ Some smart redditors have pointed out that home/away teams are not randomy selec
 
 ![png](awaygoal_files/awaygoal_10_0.png)
 
+
+The 63% home advantage after regular time is statistically significantly different from 50% (sign-test *p* = 0.008). This effect remains significant for games that ended during ET (*p* = 0.002), but not for games that end during penalties (p = 0.77). Breaking it down by "year range" this analysis becomes a bit hard to do, because sample size goes down dramatically, but the trends are similar.
 
 Here are the raw percentages for the analyses of win percentage of the home team for the three different time periods:
 
