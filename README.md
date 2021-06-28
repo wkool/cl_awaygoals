@@ -1,12 +1,12 @@
 # The away goal rule was not fair enough.
 
-<sub>Wouter Kool Washington University in St. Louis</sub>
+<sub>Wouter Kool, Washington University in St. Louis</sub>
 
 Last week, it was announced that UEFA will abolish the "away goal" rule for Champions League games. This rule was introduced in 1965, when the Champions League was still the European Cup, and was meant to give teams some extra motivation to score during away games in either a playoff or knockout round. After two legs of football matches, if the aggregate score was a tie, the team with the most away goals would win. This rule also counted in extra time, the extra 30 minutes played in the second leg of the match after a tie with no winner, so that if the away team would score during this period, the home team would need to score at least twice. This last aspect of the rule has often been framed as particularly unfair for the home team. Indeed, at first glance, it certainly sounds like it overly punishes them! I think this feeling is one of the main reasons that the rule was recently abolished. Here, I will show that this was a mistake, but also how this mistake can be salvaged without reintroducing the rule!
 
 Over the first 180 minutes of football, the away goal rule is not unfair: both teams get 90 minutes to take advantage of it. However, after regular time, something interesting happens. The home team gets to play 30 more minutes in their own stadium, and the away team gets an extra 30 minutes of 'away goal advantage'. So, which team gets the advantage? Like I said above, most people in the business seem to think that the advantage goes to the away team. In the end, their goals count more than their opponent's goals. The great thing is that we do not have to rely on intuition, feelings, or opinion, because we can simply look at the data. If the rule truly is unfair, then we should find that the away team wins more during overtime. However, if they win equally, the away goal rule is doing its work, and if the home team wins more often, the away goal rule is not punitive enough.
 
-So, what happens in overtime? I analyzed all games from the Europa Cup 1 and Champions Leauge that went into overtime since the rule has been introduced in 1965. The hypothesis is simple: if the away goal rule is unfair to the home team in overtime, then the away team should win games that go to overtime more (than 50%). (I decided to not analyze data from the last two seasons, since I suspect that COVID has had a huge, and unrelated, effect on the home-field advantage.)
+So, what happens in overtime? I analyzed all games from the European Cup 1 and Champions Leauge that went into overtime since the rule has been introduced in 1965. The hypothesis is simple: if the away goal rule is unfair to the home team in overtime, then the away team should win games that go to overtime more (than 50%). (I decided to not analyze data from the last two seasons, since I suspect that COVID has had a huge, and unrelated, effect on the home-field advantage.)
 
 The results were very surprising, and speak strongly against this rule change! Across all games played so far, there is an overwhelming tendency for the away team to lose in extra time: 63% of games are won by the home team after regular time. So, home teams win most of the time, even with the away goal rule in place. This clearly shows that, if anything, the away goal rule was not fair enough.
 
@@ -42,17 +42,17 @@ The lesson is that your subjective experience of the world is often inaccurate. 
 I thank Gerald Bauer and github.com/footballcsv for providing the bulk of the data for this project.
 
 ### Supplemental analyses
-Some smart redditors have pointed out that home/away teams are not randomy selected in the Round of 16. You can see the data of the two graphs above when you exclude this round, it turns out that it doesn't make a huge difference, but the distinction between extra time and penalty kicks becomes a little bit more finnicky. (However, I would argue that RO16 games that end up in a symmetric tie were more likely to not between heavily imbalanced teams.)
+Some smart Redditors have pointed out that home/away teams are not randomy selected in the Round of 16. You can see the data of the two graphs above when you exclude this round, it turns out that it doesn't make a huge difference, but the distinction between extra time and penalty kicks becomes a little bit more finnicky. (However, I would argue that RO16 games that end up in a symmetric tie were more likely to not feature overly imbalanced teams.)
 
 
 ![png](awaygoal_files/awaygoal_9_0.png)
 
 
+The 63% home advantage after regular time is statistically significantly different from 50% (sign-test p = 0.008). This effect remains significant for games that ended during ET (p = 0.002), but not for games that end during penalties (p = 0.77). Breaking it down by "year range" this analysis becomes a bit hard to do, because sample size goes down dramatically, but the trends are similar.
 
-![png](awaygoal_files/awaygoal_10_0.png)
 
+![png](awaygoal_files/awaygoal_11_0.png)
 
-The 63% home advantage after regular time is statistically significantly different from 50% (sign-test *p* = 0.008). This effect remains significant for games that ended during ET (*p* = 0.002), but not for games that end during penalties (*p* = 0.77). Breaking it down by "year range" this analysis becomes a bit hard to do, because sample size goes down dramatically, but the trends are similar.
 
 Here are the raw percentages for the analyses of win percentage of the home team for the three different time periods:
 
@@ -81,11 +81,5 @@ And here are the same values split by both year and phase of the game:
                  True         54.545455
     Name: home_wins, dtype: float64
 
-
-
-
-
-
-    0
 
 
